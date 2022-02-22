@@ -23,4 +23,13 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+
+    fun nextName(view: View) {
+        val editText = findViewById<EditText>(R.id.editTextTextPersonName)
+        val message = editText.text.toString()
+        val intent = Intent(this, ActivityEnterAddress::class.java).apply {
+            putExtra(EXTRA_MESSAGE, message)
+        }
+        startActivity(intent)
+    }
 }
