@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
         <activity
+            android:name=".ActivityCanvas"
+            android:exported="false" />
+        <activity
             android:name=".ActivityEnterBday"
             android:exported="false" />
         <activity

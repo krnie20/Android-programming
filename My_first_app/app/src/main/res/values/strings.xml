@@ -4,7 +4,8 @@
     <string name="enter_address">Enter your address</string>
     <string name="enter_your_bday">Enter your birthday</string>
     <string name="edit_message">Enter a message</string>
-    <string name="button_send">send</string>
-    <string name="button_next">next</string>
-    <string name="button_back">back</string>
+    <string name="button_send">Send</string>
+    <string name="button_next">Next</string>
+    <string name="button_back">Back</string>
+    <string name="button_canvas">Canvas</string>
 </resources>
